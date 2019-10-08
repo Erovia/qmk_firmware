@@ -7,3 +7,5 @@ NKRO_ENABLE       = yes
 SRC += erovia.c \
        tap_dances.c \
        functions.c
+
+EXTRAFLAGS += -flto

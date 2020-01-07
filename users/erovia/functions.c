@@ -77,7 +77,7 @@ bool aush_state = false;
 uint32_t layer_state_set_user(uint32_t state) {
   switch (biton32(state)) {
     case _VIM:
-      aush_state = autoshift_state();
+      aush_state = get_autoshift_state();
       if (aush_state) autoshift_disable();
       break;
     default: //  for any other layers, or the default layer

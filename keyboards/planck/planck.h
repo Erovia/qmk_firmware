@@ -21,6 +21,8 @@
   #include "rev5.h"
 #elif defined(KEYBOARD_planck_rev6)
   #include "rev6.h"
+#elif defined(KEYBOARD_planck_thk)
+  #include "thk.h"
 #endif // Planck revisions
 
 #endif
